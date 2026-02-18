@@ -14,11 +14,10 @@ termux-change-repo
 한국에 산다면 전남고 미러를 추천한다.
 
 ```shell
-curl -LO https://raw.githubusercontent.com/hajs110208/termux-box64/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh```
+curl -LO https://raw.githubusercontent.com/hajs110208/termux-box64/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
 
 설치 완료 후 box64를 사용하려면,
 
-```shell
-box64
+```shell box64
 
 box64 뒤에 원하는 실행 파일 이름을 입력하고 엔터를 치면 잘 실행되는 것을 볼 수 있다.
