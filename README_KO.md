@@ -15,7 +15,7 @@ termux-change-repo
 한국에 산다면 전남고 미러를 추천한다.
 
 ```bash
-curl -LO [https://raw.githubusercontent.com/hajs110208/termux-box64/refs/heads/main/install.sh](https://raw.githubusercontent.com/hajs110208/termux-box64/refs/heads/main/install.sh) && chmod +x install.sh && ./install.sh
+curl -LO https://raw.githubusercontent.com/hajs110208/termux-box64/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 설치 완료 후 box64를 사용하려면,
