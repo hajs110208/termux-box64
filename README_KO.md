@@ -10,6 +10,7 @@
 
 ```shell
 termux-change-repo```
+
 한국에 산다면 전남고 미러를 추천한다.
 
 ```shell
