@@ -10,9 +10,11 @@ It uses glibc prefix from Box64Droid.
 To get started,
 
 ```bash
-curl -LO https://raw.githubusercontent.com/hajs110208/termux-box64/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh```
+curl -LO https://raw.githubusercontent.com/hajs110208/termux-box64/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
+```
 
 To run Box64,
 
 ```bash
-box64 [program]```
+box64 [program]
+```
