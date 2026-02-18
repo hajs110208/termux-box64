@@ -1,5 +1,8 @@
 # termux-box64
-Install Box64 in termux.
+
+# English | [한국어](README_KO.md)
+
+Install Box64 in termux natively without wine.
 
 This script installs box64 without wine setup.
 It uses glibc prefix from Box64Droid.
