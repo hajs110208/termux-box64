@@ -15,7 +15,7 @@ clear
 tar -xJf glibc-prefix.tar.xz -C $PREFIX/
 echo setting up box64
 echo "export LD_PRELOAD=$PREFIX/glibc/lib/ld-linux-aarch64.so.1 && $PREFIX/glibc/bin/box64" > $PREFIX/bin/box64
-chmod +x $PREFIX/box64
+chmod +x $PREFIX/bin/box64
 sleep 2
 echo now deleting trashes
 sleep 2
