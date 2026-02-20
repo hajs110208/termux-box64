@@ -5,7 +5,6 @@
 Install Box64 in termux natively without wine.
 
 This script installs box64 without wine setup.
-It uses glibc prefix from Box64Droid.
 
 To get started,
 
