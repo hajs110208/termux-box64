@@ -9,14 +9,12 @@ termux-setup-storage
 sleep 4
 clear
 echo downloading and unpacking glibc
-wget -q --show-progress https://github.com/Ilya114/Box64Droid/releases/download/alpha/glibc-prefix.tar.xz
+pkg install glibc box64-glibc
 sleep 2
 clear
-tar -xJf glibc-prefix.tar.xz -C $PREFIX/
 echo setting up box64
 echo "export LD_PRELOAD=$PREFIX/glibc/lib/ld-linux-aarch64.so.1 && $PREFIX/glibc/bin/box64 $1" > $PREFIX/bin/box64
 chmod +x $PREFIX/bin/box64
 sleep 2
-echo now deleting trashes
-sleep 2
-rm glibc-prefix.tar.xz
+clear
+echo Done! now type box64 [program]
