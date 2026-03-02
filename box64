@@ -1,0 +1,1 @@
+export LD_PRELOAD=$PREFIX/glibc/lib/ld-linux-aarch64.so.1 && $PREFIX/glibc/bin/box64 $1 $2 $3 $4 $5
