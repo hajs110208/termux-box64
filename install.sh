@@ -1,5 +1,5 @@
 echo installing packages
-pkg install x11-repo glibc-repo -y && pkg install glibc box64-glibc
+pkg install x11-repo glibc-repo -y && pkg install glibc box64-glibc wget
 clear
 sleep 3
 echo now grant storage permission
