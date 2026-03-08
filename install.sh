@@ -1,4 +1,11 @@
-echo installing packages
+read -p "Would you like to change the mirror before doing anything? [Y/n]: " confirm
+
+if [[ "$confirm" =~ ^[nN] ]]; then
+    echo "Skipping..."
+else
+    termux-change-repo
+fi
+echo Installing required packages
 pkg install x11-repo glibc-repo -y && pkg install glibc box64-glibc wget
 clear
 sleep 3
