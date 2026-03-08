@@ -5,7 +5,13 @@ if [[ "$confirm" =~ ^[nN] ]]; then
 else
     termux-change-repo
 fi
+clear
+echo Updating packages
+sleep 2
+pkg update && apt upgrade -y
+clear
 echo Installing required packages
+sleep 2
 pkg install x11-repo glibc-repo -y && pkg install glibc box64-glibc wget
 clear
 sleep 3
