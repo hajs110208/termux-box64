@@ -12,7 +12,7 @@ pkg update && apt upgrade -y
 clear
 echo Installing required packages
 sleep 2
-pkg install x11-repo glibc-repo -y && pkg install glibc box64-glibc wget
+pkg install x11-repo glibc-repo -y && pkg install glibc box64-glibc wget -y
 clear
 sleep 3
 echo now grant storage permission
